@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORTNITE</title>
+    <link rel="shortcut icon" href="imagenes/fornite.jpg">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+   
+  </head>
+  
+  <body>
+   <header>
+    <nav class="navbar is-dark">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.epicgames.com/fortnite/es-ES/buy-now/battle-royale" style="font-weight:bold;"><img src="imagenes/font.png" alt="" class="logo"> </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu is-primary">
+          <div class="navbar-end">
+            <a href="login.html" class="navbar-item">INGRESAR</a>
+            <a href="registro.html" class="navbar-item">REGISTRARSE</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
+    
+    <main>
+               <section id="banner">
+                  <img src="imagenes/fondo.jpg" alt="">
+                   
+               </section>
+               
+               <section id="info">
+                  <h1>¡LA BATALLA ES CADA VEZ MAS INTENSA!</h1>
+                  <P>Battle Royale de Fortnite es un modo JcJ con 100 jugadores GRATUITO. Un mapa enorme. Un autobús de batalla. La pericia de construcción y los entornos destructibles de Fortnite sumados a la intensidad de los combates JcJ. El último en pie gana. Disponible en PlayStation 4, Xbox One, PC y Mac.</P><br>
+                  <a href="https://accounts.epicgames.com/register/customized?loginSubheading=Reg%C3%ADstrate+o+inicia+sesi%C3%B3n+para+recibir+las+actualizaciones+y+este+estandarte+exclusivo+del+juego.+Fortnite+ser%C3%A1+gratuito+en+2018.&regSubheading=Reg%C3%ADstrate+o+inicia+sesi%C3%B3n+para+recibir+las+actualizaciones+y+este+estandarte+exclusivo+del+juego.+Fortnite+ser%C3%A1+gratuito+en+2018.&productName=fortnite&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Ffortnite%2Fes-ES%2Fdownload&client_id=cd2b7c19c9734a2ab98dc251868d7724&noHostRedirect=true" class="btn">JUGAR GRATIS</a>
+                  <br><br>
+                  
+                  <h3>SKINS NUEVAS</h3>
+                <div class="con">
+                    <article>
+                        <img src="imagenes/skin2.jpg">
+                        <h4>Leviathan</h4>
+                    </article>
+                    <article>
+                        <img src="imagenes/skin6.jpg">
+                        <h4>El Sgt Green Clover</h4>
+                    </article>
+                    <article>
+                        <img src="imagenes/skin7.jpg">
+                        <h4>Dark Vanguard</h4>
+                    </article>
+                </div>
+               </section>
+            
+    </main>
+    
+  </body>
+  <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
+    
+</html>

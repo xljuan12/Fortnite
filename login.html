@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORNITE</title>
+    <link rel="shortcut icon" href="imagenes/fornite.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    
+  </head>
+    
+  <body>
+   <header>
+    <nav class="navbar is-dark">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.epicgames.com/fortnite/es-ES/buy-now/battle-royale" style="font-weight:bold;"><img src="imagenes/font.png" alt="" class="logo"> </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu is-primary">
+          <div class="navbar-end">
+            <a href="principal.html" class="navbar-item is-active">INICIO</a>
+            <a href="registro.html" class="navbar-item">REGISTRARSE</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
+    
+    <main id="log">
+    <section id="contenedor">
+		<form>
+		<div class="login">
+			<h2>INICIAR SESIÓN</h2>
+			<div id="form"><input type="email" name="usuario" placeholder="Correo electrónico" required></div>
+			<div id="form"><input type="password" name="contra" placeholder="Constraseña" required></div>
+			<div id="form"><input type="submit" value="Iniciar sesión" href="validar.php" id="boton" ></div>
+		</div>
+		<div class="login2">
+		    <img src="../imagenes/epic.png" alt="">
+			<h2>¿NO TIENE UNA CUENTA?</h2>
+			<p id="pa">Con tu cuenta participa en nuestra creciente comunidad de jugadores y creadores.</p>
+			<div id="re"><a class="btn" href="registro.html">REGISTRATE</a></div>
+		</div>
+        </form>
+    </section>
+    </main>
+    
+  </body>
+  <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
+
+    
+</html>
