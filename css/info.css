@@ -12,7 +12,7 @@
     height: 100%;
     text-align: center;
     padding: 5px 154px;
-    font-family: Arial, sans-serif;
+    font-family: Trattatello, fantasy;
     font-size: 15px;
     font-weight: 500;
 }
@@ -47,7 +47,13 @@
     font-size: 50px;
     font-weight: 1000;
 }
-
+#info h4{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Trattatello, fantasy;
+    font-size: 20px;
+    font-weight: 1000;
+}
 
 #info article {
     margin: 10px;

@@ -1,0 +1,161 @@
+#contenedor{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+    margin-top: 74px;
+}
+
+#cabe {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+}
+
+#cabe h1 {
+    text-align: center;
+    font-family: Trattatello, fantasy;
+    color: #fff;
+    font-size: 30px;
+}
+
+#log {
+    width: 100%;
+    height: 100%;
+    background: #040505 ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loge {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background:#040505 ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#re {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+form {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+	max-width: 897px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: block;
+    margin-top: 50px;
+}
+
+.login {
+	float:left;
+    width: 51%;
+    padding: 49px;
+    border-right: gray 2px solid;
+}
+
+.login2 img {
+    width: 30%;
+}
+
+.login2 {
+	float:left;
+    width: 49%;
+    padding: 50px;
+}
+
+#pa {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+    text-transform:capitalize;
+}
+
+#ti {
+    font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    color: dimgray;
+    background: none;
+    border: purple 1px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 17px; 
+    position: absolute;
+    width: 100%;
+}
+
+#cabe {
+	width:100%;
+	text-align: center;
+}
+
+.btn:hover {
+    transition-property: all;
+    transition: 0.8s;
+    background: red;
+    color: #fff;
+}
+
+input, textarea,select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#lab {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+ 
+#condiciones {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    overflow: hidden;
+}
+
+#boton {
+    background: red;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+    background: black;
+    transition-property: all;
+    transition: 0.4s;
+}
