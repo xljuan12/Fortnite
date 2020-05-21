@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORTNITE</title>
+    <link rel="shortcut icon" href="imagenes/fornite.jpg">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+   
+  </head>
+  
+  <body>
+   <header>
+    <nav class="navbar is-dark">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="principal.html" style="font-weight:bold;"><img src="imagenes/font.png" alt="" class="logo"> </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu is-primary">
+          <div class="navbar-end">
+            <a href="login.html" class="navbar-item">INGRESAR</a>
+            <a href="registro.html" class="navbar-item">REGISTRARSE</a>
+            <a href="descarga.html" class="navbar-item">DESCARGAR</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
+    
+    <main>
+               <section id="banner">
+                  <iframe width="1365" height="800" src="https://www.youtube.com/embed/gDYzriyKN9A?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+               </section>
+               
+               <section id="info">
+                  <h1>¡QUE ESPERAS PARA UNIRTE A NUESTRA COMUNIDAD!</h1>
+                  <a href="https://www.epicgames.com/fortnite/es-MX/battle-pass/ch2-s2" class="btn">DESCARGAR GRATIS</a>
+                  <br><br>
+                  
+                  <h3>Mejores Streamers</h3>
+                <div class="con">
+                    <article>
+                        <iframe width="600" height="300" src="https://www.youtube.com/embed/Qa6UoyjgKUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>Ninja</h4>
+                    </article>
+                    <article>
+                        <iframe width="600" height="300" src="https://www.youtube.com/embed/Z4J_FffKRrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>Lolito</h4>
+                    </article>
+                    <article>
+                        <iframe width="600" height="300" src="https://www.youtube.com/embed/r1j3TgQDj3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>Falling</h4>
+                    </article>
+                </div>
+               </section>
+            
+    </main>
+    
+  </body>
+  <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
+    
+</html>
